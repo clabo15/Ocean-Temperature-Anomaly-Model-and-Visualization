@@ -1,0 +1,42 @@
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.venv/
+.VENV/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Python cache and distribution files
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.temp
